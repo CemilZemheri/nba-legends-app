@@ -22,7 +22,7 @@ const PlayerCard = ({ players, search }) => {
         >
           {showStats[index] ? (
             <div>
-                          <ul className="statisticsList">
+                          <ul className="list">
                 {item.statistics.map((stat, term) => (
                   <li key={term}>{stat}</li>
                 ))}
@@ -30,11 +30,11 @@ const PlayerCard = ({ players, search }) => {
             </div>
           ) : (
            
-            <div className="imageDiv">
+            <div className="imageBox">
               <img src={item.img} alt={item.name} className="images" />
             </div>
           )}
-          <div className="playerNameDiv">
+          <div className="playerNameBox">
             <p className="playerNameText">{item.name}</p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Header = ({ search, setSearch }) => {
 
   return (
     <div className="header">
-      <div className="nba-image">
+      <div className="nbaLogo">
         <img src={nbaLogo} alt="" />
       </div>
       <div className="searchArea">

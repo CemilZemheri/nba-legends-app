@@ -5,7 +5,7 @@ import "../App.css";
 const CardContainer = ({ Data, search }) => {
  
   return (
-    <div className="card-container">
+    <div className="container">
       <PlayerCard players={Data} search={search} />
     </div>
   );
